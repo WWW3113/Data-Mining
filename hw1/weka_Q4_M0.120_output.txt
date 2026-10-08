@@ -1,0 +1,7 @@
+
+No large itemsets and rules found!
+
+=== Evaluation ===
+
+Elapsed time: 1.502s
+

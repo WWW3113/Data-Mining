@@ -1,0 +1,37 @@
+
+Apriori
+=======
+
+Minimum support: 0.01 (80 instances)
+Minimum metric <lift>: 3
+Number of cycles performed: 20
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 120
+
+Size of set of large itemsets L(2): 1229
+
+Size of set of large itemsets L(3): 1469
+
+Size of set of large itemsets L(4): 485
+
+Size of set of large itemsets L(5): 41
+
+Best rules found:
+
+ 1. packaged bread/buns/rolls=TRUE pasta sauce=TRUE 229 ==> beef=TRUE dry noodles/pasta=TRUE 82    conf:(0.36) < lift:(16.56)> lev:(0.01) [77] conv:(1.51)
+ 2. beef=TRUE dry noodles/pasta=TRUE 173 ==> packaged bread/buns/rolls=TRUE pasta sauce=TRUE 82    conf:(0.47) < lift:(16.56)> lev:(0.01) [77] conv:(1.83)
+ 3. cheese=TRUE pasta sauce=TRUE 228 ==> beef=TRUE dry noodles/pasta=TRUE 81    conf:(0.36) < lift:(16.43)> lev:(0.01) [76] conv:(1.51)
+ 4. beef=TRUE dry noodles/pasta=TRUE 173 ==> cheese=TRUE pasta sauce=TRUE 81    conf:(0.47) < lift:(16.43)> lev:(0.01) [76] conv:(1.81)
+ 5. beef=TRUE pasta sauce=TRUE 194 ==> cheese=TRUE dry noodles/pasta=TRUE 81    conf:(0.42) < lift:(15.12)> lev:(0.01) [75] conv:(1.65)
+ 6. cheese=TRUE dry noodles/pasta=TRUE 221 ==> beef=TRUE pasta sauce=TRUE 81    conf:(0.37) < lift:(15.12)> lev:(0.01) [75] conv:(1.53)
+ 7. pasta sauce=TRUE 387 ==> beef=TRUE dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 82    conf:(0.21) < lift:(14.62)> lev:(0.01) [76] conv:(1.25)
+ 8. beef=TRUE dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 116 ==> pasta sauce=TRUE 82    conf:(0.71) < lift:(14.62)> lev:(0.01) [76] conv:(3.15)
+ 9. beef=TRUE pasta sauce=TRUE 194 ==> dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 82    conf:(0.42) < lift:(14.45)> lev:(0.01) [76] conv:(1.67)
+10. dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 234 ==> beef=TRUE pasta sauce=TRUE 82    conf:(0.35) < lift:(14.45)> lev:(0.01) [76] conv:(1.49)
+
+=== Evaluation ===
+
+Elapsed time: 12.4s
+

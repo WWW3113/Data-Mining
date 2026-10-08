@@ -1,0 +1,39 @@
+
+Apriori
+=======
+
+Minimum support: 0 (40 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 20
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 120
+
+Size of set of large itemsets L(2): 2933
+
+Size of set of large itemsets L(3): 8685
+
+Size of set of large itemsets L(4): 7153
+
+Size of set of large itemsets L(5): 2038
+
+Size of set of large itemsets L(6): 155
+
+Best rules found:
+
+ 1. crackers/miscellaneous baked food=TRUE frozen pizza=TRUE pasta sauce=TRUE 48 ==> cheese=TRUE 46    <conf:(0.96)> lift:(5.17) lev:(0) [37] conv:(13.03)
+ 2. bag snacks=TRUE cheese=TRUE frozen pizza=TRUE hot dogs=TRUE 48 ==> packaged bread/buns/rolls=TRUE 46    <conf:(0.96)> lift:(3.87) lev:(0) [34] conv:(12.04)
+ 3. cheese=TRUE cold cereal=TRUE cookies/cones=TRUE fluid milk products=TRUE soft drinks=TRUE 46 ==> packaged bread/buns/rolls=TRUE 44    <conf:(0.96)> lift:(3.87) lev:(0) [32] conv:(11.54)
+ 4. bag snacks=TRUE cold cereal=TRUE fluid milk products=TRUE salad dressing/sandwich spread=TRUE soft drinks=TRUE 44 ==> packaged bread/buns/rolls=TRUE 42    <conf:(0.95)> lift:(3.86) lev:(0) [31] conv:(11.04)
+ 5. bag snacks=TRUE crackers/miscellaneous baked food=TRUE fluid milk products=TRUE pasta sauce=TRUE 43 ==> cheese=TRUE 41    <conf:(0.95)> lift:(5.14) lev:(0) [33] conv:(11.68)
+ 6. dry dinner mixes=TRUE eggs=TRUE packaged bread/buns/rolls=TRUE refrigerated juices/drinks=TRUE 42 ==> fluid milk products=TRUE 40    <conf:(0.95)> lift:(3.52) lev:(0) [28] conv:(10.21)
+ 7. dry dinner mixes=TRUE eggs=TRUE tropical fruit=TRUE 52 ==> fluid milk products=TRUE 49    <conf:(0.94)> lift:(3.48) lev:(0) [34] conv:(9.48)
+ 8. soup=TRUE tropical fruit=TRUE yogurt=TRUE 50 ==> fluid milk products=TRUE 47    <conf:(0.94)> lift:(3.47) lev:(0) [33] conv:(9.11)
+ 9. cold cereal=TRUE eggs=TRUE soft drinks=TRUE tropical fruit=TRUE 50 ==> fluid milk products=TRUE 47    <conf:(0.94)> lift:(3.47) lev:(0) [33] conv:(9.11)
+10. canned juices=TRUE dry dinner mixes=TRUE eggs=TRUE 49 ==> fluid milk products=TRUE 46    <conf:(0.94)> lift:(3.47) lev:(0) [32] conv:(8.93)
+
+=== Evaluation ===
+
+Elapsed time: 27.647s
+

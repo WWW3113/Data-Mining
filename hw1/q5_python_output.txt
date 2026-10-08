@@ -1,0 +1,9 @@
+L(1) = 120
+L(2) = 497
+L(3) = 331
+L(4) = 39
+['bag snacks', 'cold cereal', 'packaged bread/buns/rolls'] (176) ==> ['fluid milk products'] (140)  conf=0.7955 lift=2.94
+['cheese', 'crackers/miscellaneous baked food', 'fluid milk products'] (205) ==> ['packaged bread/buns/rolls'] (162)  conf=0.7902 lift=3.20
+['cold cereal', 'packaged bread/buns/rolls', 'soft drinks'] (213) ==> ['fluid milk products'] (168)  conf=0.7887 lift=2.91
+['cold cereal', 'packaged bread/buns/rolls', 'tropical fruit'] (194) ==> ['fluid milk products'] (152)  conf=0.7835 lift=2.89
+['cheese', 'cold cereal', 'packaged bread/buns/rolls'] (244) ==> ['fluid milk products'] (190)  conf=0.7787 lift=2.88

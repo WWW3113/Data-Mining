@@ -1,0 +1,50 @@
+
+Apriori
+=======
+
+Minimum support: 0.02 (130 instances)
+Minimum metric <confidence>: 0.75
+Number of cycles performed: 20
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 120
+
+Size of set of large itemsets L(2): 497
+
+Size of set of large itemsets L(3): 331
+
+Size of set of large itemsets L(4): 39
+
+Size of set of large itemsets L(5): 1
+
+Best rules found:
+
+  1. canned juices=TRUE eggs=TRUE 160 ==> fluid milk products=TRUE 130    <conf:(0.81)> lift:(3) lev:(0.01) [86] conv:(3.76)
+  2. cold cereal=TRUE eggs=TRUE 240 ==> fluid milk products=TRUE 192    <conf:(0.8)> lift:(2.95) lev:(0.02) [127] conv:(3.57)
+  3. bag snacks=TRUE cold cereal=TRUE packaged bread/buns/rolls=TRUE 176 ==> fluid milk products=TRUE 140    <conf:(0.8)> lift:(2.94) lev:(0.01) [92] conv:(3.47)
+  4. canned juices=TRUE cold cereal=TRUE 186 ==> fluid milk products=TRUE 147    <conf:(0.79)> lift:(2.92) lev:(0.01) [96] conv:(3.39)
+  5. cheese=TRUE crackers/miscellaneous baked food=TRUE fluid milk products=TRUE 205 ==> packaged bread/buns/rolls=TRUE 162    <conf:(0.79)> lift:(3.2) lev:(0.01) [111] conv:(3.51)
+  6. cold cereal=TRUE packaged bread/buns/rolls=TRUE soft drinks=TRUE 213 ==> fluid milk products=TRUE 168    <conf:(0.79)> lift:(2.91) lev:(0.01) [110] conv:(3.38)
+  7. cold cereal=TRUE convenient breakfast/wholesome snacks=TRUE 181 ==> fluid milk products=TRUE 142    <conf:(0.78)> lift:(2.9) lev:(0.01) [92] conv:(3.3)
+  8. cold cereal=TRUE packaged bread/buns/rolls=TRUE tropical fruit=TRUE 194 ==> fluid milk products=TRUE 152    <conf:(0.78)> lift:(2.89) lev:(0.01) [99] conv:(3.29)
+  9. bag snacks=TRUE cheese=TRUE fluid milk products=TRUE soft drinks=TRUE 180 ==> packaged bread/buns/rolls=TRUE 141    <conf:(0.78)> lift:(3.17) lev:(0.01) [96] conv:(3.39)
+ 10. bag snacks=TRUE hot dogs=TRUE 170 ==> packaged bread/buns/rolls=TRUE 133    <conf:(0.78)> lift:(3.16) lev:(0.01) [90] conv:(3.37)
+ 11. cheese=TRUE cold cereal=TRUE packaged bread/buns/rolls=TRUE 244 ==> fluid milk products=TRUE 190    <conf:(0.78)> lift:(2.88) lev:(0.02) [123] conv:(3.23)
+ 12. cheese=TRUE hot dogs=TRUE 229 ==> packaged bread/buns/rolls=TRUE 177    <conf:(0.77)> lift:(3.13) lev:(0.02) [120] conv:(3.25)
+ 13. bag snacks=TRUE beef=TRUE fluid milk products=TRUE 202 ==> packaged bread/buns/rolls=TRUE 156    <conf:(0.77)> lift:(3.12) lev:(0.01) [106] conv:(3.23)
+ 14. beef=TRUE cold cereal=TRUE packaged bread/buns/rolls=TRUE 178 ==> fluid milk products=TRUE 136    <conf:(0.76)> lift:(2.82) lev:(0.01) [87] conv:(3.02)
+ 15. cold cereal=TRUE soup=TRUE 182 ==> fluid milk products=TRUE 139    <conf:(0.76)> lift:(2.82) lev:(0.01) [89] conv:(3.02)
+ 16. fluid milk products=TRUE hot dogs=TRUE 215 ==> packaged bread/buns/rolls=TRUE 164    <conf:(0.76)> lift:(3.08) lev:(0.01) [110] conv:(3.11)
+ 17. cheese=TRUE cold cereal=TRUE soft drinks=TRUE 180 ==> fluid milk products=TRUE 137    <conf:(0.76)> lift:(2.81) lev:(0.01) [88] conv:(2.98)
+ 18. eggs=TRUE tropical fruit=TRUE 254 ==> fluid milk products=TRUE 193    <conf:(0.76)> lift:(2.81) lev:(0.02) [124] conv:(2.99)
+ 19. cold cereal=TRUE refrigerated juices/drinks=TRUE 245 ==> fluid milk products=TRUE 186    <conf:(0.76)> lift:(2.8) lev:(0.01) [119] conv:(2.98)
+ 20. cold cereal=TRUE tropical fruit=TRUE 285 ==> fluid milk products=TRUE 216    <conf:(0.76)> lift:(2.8) lev:(0.02) [138] conv:(2.97)
+ 21. cheese=TRUE crackers/miscellaneous baked food=TRUE packaged bread/buns/rolls=TRUE 216 ==> fluid milk products=TRUE 162    <conf:(0.75)> lift:(2.77) lev:(0.01) [103] conv:(2.86)
+ 22. baked sweet goods=TRUE fluid milk products=TRUE soft drinks=TRUE 188 ==> packaged bread/buns/rolls=TRUE 141    <conf:(0.75)> lift:(3.03) lev:(0.01) [94] conv:(2.95)
+ 23. deli counter meats=TRUE tropical fruit=TRUE 184 ==> packaged bread/buns/rolls=TRUE 138    <conf:(0.75)> lift:(3.03) lev:(0.01) [92] conv:(2.95)
+
+=== Evaluation ===
+
+Elapsed time: 2.564s
+
