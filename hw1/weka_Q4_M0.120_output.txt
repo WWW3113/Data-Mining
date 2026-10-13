@@ -1,7 +1,12 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.0 -D 0.05 -U 1.0 -M 0.12 -S -1.0 -c -1
+Relation:     hw1_2026_transactions
+Instances:    8002
+Attributes:   120
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
 
 No large itemsets and rules found!
-
-=== Evaluation ===
-
-Elapsed time: 1.502s
 

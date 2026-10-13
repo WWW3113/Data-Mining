@@ -1,3 +1,12 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 1000 -T 0 -C 0.75 -D 0.05 -U 1.0 -M 0.01625 -S -1.0 -c -1
+Relation:     hw1_2026_transactions
+Instances:    8002
+Attributes:   120
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
 
 Apriori
 =======
@@ -43,8 +52,4 @@ Best rules found:
  21. cheese=TRUE crackers/miscellaneous baked food=TRUE packaged bread/buns/rolls=TRUE 216 ==> fluid milk products=TRUE 162    <conf:(0.75)> lift:(2.77) lev:(0.01) [103] conv:(2.86)
  22. baked sweet goods=TRUE fluid milk products=TRUE soft drinks=TRUE 188 ==> packaged bread/buns/rolls=TRUE 141    <conf:(0.75)> lift:(3.03) lev:(0.01) [94] conv:(2.95)
  23. deli counter meats=TRUE tropical fruit=TRUE 184 ==> packaged bread/buns/rolls=TRUE 138    <conf:(0.75)> lift:(3.03) lev:(0.01) [92] conv:(2.95)
-
-=== Evaluation ===
-
-Elapsed time: 2.564s
 

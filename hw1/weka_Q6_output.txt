@@ -1,3 +1,12 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 1 -C 3.0 -D 0.05 -U 1.0 -M 0.01 -S -1.0 -c -1
+Relation:     hw1_2026_transactions
+Instances:    8002
+Attributes:   120
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
 
 Apriori
 =======
@@ -30,8 +39,4 @@ Best rules found:
  8. beef=TRUE dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 116 ==> pasta sauce=TRUE 82    conf:(0.71) < lift:(14.62)> lev:(0.01) [76] conv:(3.15)
  9. beef=TRUE pasta sauce=TRUE 194 ==> dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 82    conf:(0.42) < lift:(14.45)> lev:(0.01) [76] conv:(1.67)
 10. dry noodles/pasta=TRUE packaged bread/buns/rolls=TRUE 234 ==> beef=TRUE pasta sauce=TRUE 82    conf:(0.35) < lift:(14.45)> lev:(0.01) [76] conv:(1.49)
-
-=== Evaluation ===
-
-Elapsed time: 12.4s
 

@@ -1,3 +1,12 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.005 -S -1.0 -c -1
+Relation:     hw1_2026_transactions
+Instances:    8002
+Attributes:   120
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
 
 Apriori
 =======
@@ -32,8 +41,4 @@ Best rules found:
  8. soup=TRUE tropical fruit=TRUE yogurt=TRUE 50 ==> fluid milk products=TRUE 47    <conf:(0.94)> lift:(3.47) lev:(0) [33] conv:(9.11)
  9. cold cereal=TRUE eggs=TRUE soft drinks=TRUE tropical fruit=TRUE 50 ==> fluid milk products=TRUE 47    <conf:(0.94)> lift:(3.47) lev:(0) [33] conv:(9.11)
 10. canned juices=TRUE dry dinner mixes=TRUE eggs=TRUE 49 ==> fluid milk products=TRUE 46    <conf:(0.94)> lift:(3.47) lev:(0) [32] conv:(8.93)
-
-=== Evaluation ===
-
-Elapsed time: 27.647s
 
